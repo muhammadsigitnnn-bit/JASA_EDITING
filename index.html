@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jasa Edit Video | Portofolio & Pemesanan</title>
+  <meta name="description" content="Jasa edit video dokumenter, vlog, presentasi, dan promosi. Harga mulai Rp25K. Pesan langsung lewat WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header" id="header">
+    <a href="#top" class="logo">JASA EDIT<span class="dot"></span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#portofolio">Hasil edit</a>
+      <a href="#harga">Harga</a>
+      <a href="#cara-pesan">Cara pesan</a>
+      <a href="#pesan" class="btn btn-small">Pesan sekarang</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <p class="hero-price">Edit video mulai <strong>Rp25K</strong></p>
+        <h1>Video kamu dirapikan, dipotong, dan siap tayang.</h1>
+        <p class="hero-text">Saya mengedit video dokumenter, vlog, presentasi, dan promosi. Harga menyesuaikan tingkat kesulitan editing, jadi kamu hanya bayar sesuai kebutuhan.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/6288989653767" class="btn" id="heroWa" target="_blank" rel="noopener">Pesan lewat WhatsApp</a>
+          <a href="#portofolio" class="btn btn-ghost">Lihat hasil edit</a>
+        </div>
+      </div>
+
+      <div class="timeline" aria-hidden="true">
+        <div class="playhead"></div>
+        <div class="track">
+          <span style="--w:18"></span><span class="hot" style="--w:10"></span><span style="--w:26"></span><span style="--w:14"></span><span class="hot" style="--w:8"></span><span style="--w:20"></span>
+        </div>
+        <div class="track">
+          <span style="--w:8"></span><span style="--w:22"></span><span class="hot" style="--w:12"></span><span style="--w:30"></span><span style="--w:16"></span>
+        </div>
+        <div class="track thin">
+          <span style="--w:34"></span><span class="hot" style="--w:6"></span><span style="--w:40"></span><span style="--w:12"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTOFOLIO -->
+    <section class="section" id="portofolio">
+      <div class="container">
+        <h2>Hasil edit saya</h2>
+        <p class="section-text">Empat jenis video yang paling sering saya kerjakan. Putar langsung untuk melihat hasilnya.</p>
+
+        <div class="video-grid">
+
+          <article class="video-card">
+            <video controls preload="metadata" playsinline>
+              <source src="video/dokumenter.mp4" type="video/mp4">
+              Browser kamu tidak mendukung video.
+            </video>
+            <div class="video-info">
+              <h3>Video dokumenter</h3>
+              <p>Alur cerita runtut, narasi bersih, dan warna yang konsisten.</p>
+              <button class="link-btn" data-jenis="Video Dokumenter">Pesan jenis ini</button>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <video controls preload="metadata" playsinline>
+              <source src="video/vlog.mp4" type="video/mp4">
+              Browser kamu tidak mendukung video.
+            </video>
+            <div class="video-info">
+              <h3>Vlog</h3>
+              <p>Ritme cepat, bagian membosankan dibuang, musik pas dengan suasana.</p>
+              <button class="link-btn" data-jenis="Vlog">Pesan jenis ini</button>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <video controls preload="metadata" playsinline>
+              <source src="video/promosi.mp4" type="video/mp4">
+              Browser kamu tidak mendukung video.
+            </video>
+            <div class="video-info">
+              <h3>Video promosi</h3>
+              <p>Singkat, menarik perhatian di detik pertama, dan ada ajakan beli.</p>
+              <button class="link-btn" data-jenis="Video Promosi">Pesan jenis ini</button>
+            </div>
+          </article>
+
+          <article class="video-card video-card--landscape">
+            <video controls preload="metadata" playsinline>
+              <source src="video/presentasi.mp4" type="video/mp4">
+              Browser kamu tidak mendukung video.
+            </video>
+            <div class="video-info">
+              <h3>Video presentasi</h3>
+              <p>Slide, suara, dan teks tersusun jelas supaya mudah diikuti.</p>
+              <button class="link-btn" data-jenis="Video Presentasi">Pesan jenis ini</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HARGA -->
+    <section class="section section-alt" id="harga">
+      <div class="container">
+        <h2>Harga sesuai tingkat kesulitan</h2>
+        <p class="section-text">Semakin banyak efek dan detail yang kamu minta, semakin tinggi tingkatnya. Harga final saya konfirmasi sebelum mulai mengedit.</p>
+
+        <div class="price-grid">
+
+          <div class="price-card">
+            <h3>Ringan</h3>
+            <p class="price"><small>mulai</small> Rp25K</p>
+            <ul>
+              <li>Potong dan rapikan klip</li>
+              <li>Musik latar</li>
+              <li>Teks sederhana</li>
+              <li>Cocok untuk video pendek</li>
+            </ul>
+            <button class="btn btn-ghost btn-full" data-level="Ringan (mulai Rp25K)">Pilih Ringan</button>
+          </div>
+
+          <div class="price-card featured">
+            <span class="badge">Paling banyak dipilih</span>
+            <h3>Menengah</h3>
+            <p class="price"><small>mulai</small> Rp50K</p>
+            <ul>
+              <li>Semua paket Ringan</li>
+              <li>Transisi dan sound effect</li>
+              <li>Color grading dasar</li>
+              <li>Subtitle</li>
+            </ul>
+            <button class="btn btn-full" data-level="Menengah (mulai Rp50K)">Pilih Menengah</button>
+          </div>
+
+          <div class="price-card">
+            <h3>Kompleks</h3>
+            <p class="price"><small>mulai</small> Rp85K</p>
+            <ul>
+              <li>Semua paket Menengah</li>
+              <li>Motion graphics dan animasi teks</li>
+              <li>Color grading sinematik</li>
+              <li>Durasi panjang atau banyak klip</li>
+            </ul>
+            <button class="btn btn-ghost btn-full" data-level="Kompleks (mulai Rp100K)">Pilih Kompleks</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CARA PESAN -->
+    <section class="section" id="cara-pesan">
+      <div class="container">
+        <h2>Cara pesan</h2>
+        <ol class="steps">
+          <li><strong>Isi form di bawah.</strong> Pilih jenis video dan tingkat editing.</li>
+          <li><strong>Kirim lewat WhatsApp.</strong> Pesanmu otomatis tersusun di chat.</li>
+          <li><strong>Kirim bahan video.</strong> Saya cek, lalu konfirmasi harga dan waktu pengerjaan.</li>
+          <li><strong>Bayar dan terima hasil.</strong> Revisi kecil bisa diatur lewat chat.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FORM PESAN -->
+    <section class="section section-alt" id="pesan">
+      <div class="container narrow">
+        <h2>Pesan sekarang</h2>
+        <p class="section-text">Isi data singkat ini, lalu tombol di bawah akan membuka WhatsApp dengan pesan yang sudah siap kirim.</p>
+
+        <div class="example-box">
+          <p class="example-title">Contoh pengisian</p>
+          <dl>
+            <dt>Nama</dt><dd>Budi Santoso</dd>
+            <dt>Jenis video</dt><dd>Vlog</dd>
+            <dt>Tingkat editing</dt><dd>Menengah (mulai Rp50K)</dd>
+            <dt>Durasi video mentah</dt><dd>10 menit</dd>
+            <dt>Batas waktu</dt><dd>3 hari lagi</dd>
+            <dt>Catatan</dt><dd>Vlog liburan ke Bali, hasil akhir sekitar 3 menit. Musik santai, judul teks di awal, warna hangat.</dd>
+          </dl>
+          <button type="button" class="link-btn" id="fillExample">Isi form dengan contoh ini</button>
+        </div>
+
+        <form id="orderForm" class="order-form" novalidate>
+          <div class="field">
+            <label for="nama">Nama kamu</label>
+            <input type="text" id="nama" name="nama" placeholder="Contoh: Budi Santoso" required>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="jenis">Jenis video</label>
+              <select id="jenis" name="jenis" required>
+                <option value="">Pilih jenis video</option>
+                <option>Video Dokumenter</option>
+                <option>Vlog</option>
+                <option>Video Presentasi</option>
+                <option>Video Promosi</option>
+                <option>Lainnya</option>
+              </select>
+              <small class="hint">Pilih sesuai isi video kamu.</small>
+            </div>
+            <div class="field">
+              <label for="level">Tingkat editing</label>
+              <select id="level" name="level" required>
+                <option value="">Pilih tingkat</option>
+                <option>Ringan (mulai Rp25K)</option>
+                <option>Menengah (mulai Rp50K)</option>
+                <option>Kompleks (mulai Rp85K)</option>
+                <option>Belum tahu, mau konsultasi</option>
+              </select>
+              <small class="hint">Ringan: potong dasar. Menengah: efek dan subtitle. Kompleks: animasi dan sinematik.</small>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="durasi">Durasi video mentah</label>
+              <input type="text" id="durasi" name="durasi" placeholder="Contoh: 10 menit, atau 3 klip total 15 menit">
+            </div>
+            <div class="field">
+              <label for="deadline">Batas waktu selesai</label>
+              <input type="text" id="deadline" name="deadline" placeholder="Contoh: 3 hari lagi, atau Jumat sore">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="catatan">Catatan tambahan</label>
+            <textarea id="catatan" name="catatan" rows="4" placeholder="Contoh: Vlog liburan ke Bali, hasil akhir sekitar 3 menit. Pakai musik santai, tambahkan teks judul di awal, warna dibuat hangat. Referensi gaya: link video YouTube atau TikTok."></textarea>
+          </div>
+
+          <p class="form-error" id="formError" role="alert"></p>
+
+          <button type="submit" class="btn btn-full btn-wa">Kirim pesanan lewat WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span>Jasa edit video.</p>
+      <a href="#top">Kembali ke atas</a>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6288989653767" class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true">
+      <path d="M16.003 3C9.373 3 4 8.373 4 15c0 2.385.697 4.607 1.894 6.48L4 29l7.718-1.857A11.94 11.94 0 0 0 16.003 27C22.633 27 28 21.627 28 15S22.633 3 16.003 3zm0 21.8a9.8 9.8 0 0 1-5.013-1.373l-.36-.213-3.67.883.917-3.577-.234-.37A9.77 9.77 0 0 1 6.2 15c0-5.413 4.39-9.8 9.803-9.8 5.41 0 9.797 4.387 9.797 9.8 0 5.41-4.387 9.8-9.797 9.8zm5.37-7.34c-.293-.147-1.743-.86-2.013-.957-.27-.1-.467-.147-.663.147-.197.293-.76.957-.933 1.153-.17.197-.343.22-.637.073-.293-.147-1.243-.457-2.367-1.46-.873-.78-1.463-1.743-1.633-2.037-.17-.293-.017-.453.13-.6.133-.133.293-.343.44-.513.147-.17.197-.293.293-.49.1-.197.05-.367-.023-.513-.073-.147-.663-1.597-.907-2.187-.24-.573-.483-.497-.663-.507l-.563-.01c-.197 0-.517.073-.787.367s-1.033 1.01-1.033 2.46 1.057 2.853 1.203 3.05c.147.197 2.08 3.177 5.04 4.453.703.303 1.253.483 1.683.62.707.225 1.35.193 1.857.117.567-.083 1.743-.713 1.99-1.4.247-.69.247-1.28.173-1.403-.073-.123-.27-.197-.563-.343z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
